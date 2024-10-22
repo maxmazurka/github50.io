@@ -1,1 +1,70 @@
+.calc {
+    width: 500px;
+    height: 500px;
+    background: darkviolet;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.calc-screen{
+    text-align: center;
+}
+
+.product {
+    margin-top: 30px;
+}
+
+input{
+    text-align: center;
+    padding: 10px;
+    width: 40%;
+    border: 3px black solid;
+}
+
+select{
+    text-align: center;
+    padding: 10px;
+    width: 40%;
+    border: 3px black solid;
+}
+
+option{
+    background-color: orange;
+}
+
+option:hover{
+    background-color: green;
+}
+
+.calculate {
+    background-color: orange;
+    color: black;
+    cursor: pointer;
+    margin-top: 50px;
+    padding: 20px 40px;
+}
+
+.calculate:hover {
+    background-color: green;
+}
+
+.itog{
+    background-color: orange;
+    font-size: 20px;
+    text-align: center;
+}
+.result{
+    font-size: 30px;
+}
+
+
+
+
 
