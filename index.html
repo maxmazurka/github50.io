@@ -1,1 +1,36 @@
-
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>ЗАДАНИЕ 5</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Максим">
+    <meta name="description" content="Калькулятор стоимости">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+    <div class="calc">
+        <div class="calc-screen">
+            <h1>Калькулятор стоимости заказа</h1>
+            <h3>Количество товара:</h3>
+            <input type="number" id="nmbr" placeholder="Введите количество">
+            <h3>Выберите товар:</h3>
+            <select class="product" id="prod" onfocus='this.size=5;' onblur='this.size=0;' onchange='this.size=1; this.blur();'>
+                <option value="111">Клубника - 111 руб.</option>
+                <option value="222">Малина - 222 руб.</option>
+                <option value="333">Вишня - 333 руб.</option>
+                <option value="444">Черешня - 444 руб.</option>
+                <option value="555">Банан - 555 руб.</option>
+            </select>
+            <br>
+            <button class="calculate" id="calcul">Подсчёт стоимости товара</button>
+        </div>
+        <br>
+        <div class="itog" id="itg">
+            Стоимость: <br>
+            <div class="result" id="result"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
