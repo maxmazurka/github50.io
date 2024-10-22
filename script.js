@@ -5,9 +5,9 @@ document.getElementById("calcul").addEventListener("click", function () {
     const incorrect = /^[1-9][0-9]*$/;
     
     if (!incorrect.test(numb)) {
-        document.getElementById("result").textContent = "Некорректные данные в количестве товара";
+        document.getElementById("result").textContent = finalprice + " рублей";
     } else {
-        document.getElementById("result").textContent = finalprice + " рублей"; 
+        document.getElementById("result").textContent = "Некорректные данные в количестве товара"; 
     }
 });
 
